@@ -1,0 +1,69 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+
+.background {
+  background-image: url(../images/soup.jpg);
+  background-position: center center;
+  background-size: 800px;
+  background-repeat: no-repeat;
+  height:500px;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  line-height: 500px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.recipe {
+  display: inline;
+  margin-left: 20%;
+  margin-right: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.ingredients {
+  display: inline;
+  margin-left: 20%;
+  margin-right: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  margin-right: 350px;
+  margin-left: 350px;
+}  
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+
+ul{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  list-style-type: "-";
+  }
+
+ol{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  list-style-type: ")";
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+
+
